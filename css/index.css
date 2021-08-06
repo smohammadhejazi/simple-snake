@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.row{
+    height: 60px;
+}
+
+.cell{
+    width: 60px;
+    height: 60px;
+    outline: 1px solid white;
+    display: inline-block;
+}
+
+.snake-head-cell{
+    background-color: greenyellow;
+}
+
+.snake-body-cell{
+    background-color: green;
+}
+
+.food-cell{
+    background-color: tomato;
+}
+
+.game-over{
+    z-index: 999;
+    background-color:#61dafb;
+    color: black;
+    font-size: calc(10px + 5vmin);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 98%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.2em;
+}
+
+.button{
+    margin-top: 0.5em;
+    font-size: calc(10px + 1vmin);
+    width: 5em;
+    height: 1.5em;
+    align-self: center;
+}
+
+#board-header{
+    margin-bottom: 1em;
+}
+
+#board-header h1{
+    display: inline;
+}
+
+#board-body{
+    outline: 2px solid white;
+}

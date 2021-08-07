@@ -89,6 +89,7 @@ function retry()
     snake = new Snake(SNAKE_X_START, SNAKE_Y_START, SNAKE_X_START, SNAKE_Y_START - 1)
     snakeArray = []
     score = 0
+    intervalTime = 300
     snakeDirection = DIRECTION.RIGHT
     snakeNewDirection = DIRECTION.RIGHT
     startGame()
